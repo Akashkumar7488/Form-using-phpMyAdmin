@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="form">
+        <h1>Registration Form</h1>
+        <form action="register.php" method="post">
+            <div id="name" class="form-group">
+                <p>Full Name:</p>
+                <input type="text" id="fullname" class="form-control" name="fullname" placeholder="Full Name" required>
+            </div> 
+            <div id="email" class="form-group"> 
+                <p>Email:</p>
+                <input type="email" id="email" class="form-control" name="email" placeholder="Email" required>
+            </div>
+            <div id="password" class="form-group">
+                <p>Password:</p>
+                <input type="password" id="password" class="form-control" name="password" placeholder="Password" required>
+            </div>
+            <div id="mobile" class="form-group">
+                <p>Mobile No:</p>
+                <input type="number" id="mobile" class="form-control" name="mobile" placeholder="Mobile" required>
+            </div>
+            <div id="salary" class="form-group">
+                <p>Salary:</p>
+                <input type="number" id="salary" class="form-control" name="salary" placeholder="Salary" required>
+            </div>
+            <button type="submit"  name="submit" value="register">Register</button>
+            <button><a href="login.html" class="button">Login</a></button>
+        </form>
+    </div>
+</body>
+</html>
